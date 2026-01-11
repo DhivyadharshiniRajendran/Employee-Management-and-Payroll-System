@@ -1,0 +1,96 @@
+# ========================================
+# EMPLOYEE DATA FILE
+# ========================================
+# This file contains employee information for the Employee Management System
+# 
+# FORMAT GUIDELINES:
+# -----------------
+# MANAGER    ID AGE EXP |Name|Address|Department|JoinDate| Salary TeamSize
+# DEVELOPER  ID AGE EXP |Name|Address|Department|JoinDate|Language| Salary Projects
+# PARTTIME   ID AGE EXP |Name|Address|Department|JoinDate| HourlyRate HoursWorked
+# INTERN     ID AGE |Name|Address|Department|JoinDate|University|Mentor| HoursWorked
+# CONTRACT   ID AGE EXP |Name|Address|Department|JoinDate|EndDate| Amount Completed(0/1)
+#
+# Notes:
+# - Lines starting with # are comments (ignored)
+# - Use | as delimiter for text fields containing spaces
+# - Completed: 0 = In Progress, 1 = Completed
+# - Do not add extra spaces around the pipe delimiters
+# ========================================
+
+# MANAGERS
+MANAGER M001 35 10 |Alice Johnson|123 Main St|Engineering|2020-01-15| 8000 5
+MANAGER M002 42 15 |Michael Chen|456 Broadway|Operations|2018-03-20| 9500 8
+MANAGER M003 38 12 |Sarah Williams|789 Park Ave|Sales|2019-07-10| 8500 6
+MANAGER M004 40 13 |Rebecca Turner|147 Ocean Dr|Finance|2017-06-12| 9000 7
+MANAGER M005 37 11 |Daniel Kim|258 River Rd|Product|2019-04-25| 8800 5
+MANAGER M006 43 16 |Laura Martinez|369 Lake St|Customer Success|2016-09-08| 9200 9
+MANAGER M007 45 18 |Elizabeth Bennett|712 Executive Blvd|Technology|2014-05-20| 10500 12
+MANAGER M008 48 20 |William Darcy|823 Leadership Way|Strategy|2012-03-15| 11000 10
+
+
+# DEVELOPERS
+DEVELOPER D001 28 5 |Bob Smith|456 Oak Ave|Engineering|2021-06-01|C++| 6000 2
+DEVELOPER D002 30 7 |Carol White|789 Pine Rd|Engineering|2019-03-10|Python| 6500 1
+DEVELOPER D003 26 3 |James Taylor|321 Cedar St|Engineering|2022-09-15|Java| 5500 3
+DEVELOPER D004 32 8 |Linda Martinez|654 Birch Ln|Engineering|2018-11-05|JavaScript| 7000 5
+DEVELOPER D005 29 6 |Robert Garcia|987 Spruce Dr|Engineering|2020-02-28|C++| 6200 4
+DEVELOPER D006 27 4 |John Doe|123 Test St|Engineering|2023-01-15|Python| 5800 2
+DEVELOPER D007 31 9 |Amy Rodriguez|234 Valley Rd|Engineering|2017-08-22|Go| 7200 6
+DEVELOPER D008 25 2 |Kevin Lee|345 Hill Ave|Engineering|2023-11-01|Rust| 5200 1
+DEVELOPER D009 33 10 |Rachel Green|456 Mountain Dr|Engineering|2016-12-18|C#| 7500 7
+DEVELOPER D010 28 5 |Brandon Scott|567 Forest Ln|Engineering|2021-04-03|Ruby| 6100 3
+DEVELOPER D011 26 3 |Melissa Brooks|678 Beach Blvd|Engineering|2022-07-19|TypeScript| 5600 2
+DEVELOPER D012 34 11 |Christopher Hall|789 Desert Way|Engineering|2015-10-30|Swift| 7800 8
+DEVELOPER D013 36 12 |Sophia Murphy|934 Code St|Engineering|2014-11-22|Kotlin| 8200 9
+DEVELOPER D014 35 13 |Alexander Ross|045 Developer Ave|Engineering|2013-08-17|Scala| 8500 10
+DEVELOPER D015 37 14 |Charlotte Bell|156 Programming Ln|Engineering|2012-06-30|Elixir| 8800 11
+
+# PART-TIME EMPLOYEES
+PARTTIME P001 45 15 |David Brown|321 Elm St|Support|2022-01-01| 25.0 80
+PARTTIME P002 50 20 |Patricia Wilson|852 Maple Rd|Support|2020-05-12| 30.0 60
+PARTTIME P003 35 8 |Jennifer Lopez|741 Ash Ave|HR|2023-03-15| 22.0 70
+PARTTIME P004 42 12 |Steven Young|963 Canyon Rd|Finance|2021-08-20| 28.0 75
+PARTTIME P005 38 10 |Angela King|147 Summit Ave|HR|2022-11-05| 26.0 65
+PARTTIME P006 48 18 |Mark Wright|258 Ridge Pkwy|Operations|2019-02-14| 32.0 85
+PARTTIME P007 41 14 |Victoria Allen|369 Valley View|Marketing|2020-06-22| 27.0 70
+PARTTIME P008 36 9 |Nathan Hill|741 Park Pl|Support|2023-01-10| 24.0 60
+PARTTIME P009 52 22 |Donald Sanders|267 Veteran Rd|Consulting|2018-04-08| 35.0 90
+PARTTIME P010 46 16 |Barbara Price|378 Experience Way|Training|2020-09-12| 33.0 80
+
+# INTERNS
+INTERN I001 22 |Emma Davis|654 Maple Dr|Engineering|2024-09-01|Tech University|Bob Smith| 120
+INTERN I002 21 |Oliver Anderson|963 Willow Way|Marketing|2024-09-01|State College|Frank Miller| 100
+INTERN I003 23 |Sophia Thomas|159 Poplar Pl|Engineering|2024-06-15|Engineering Institute|Carol White| 140
+INTERN I004 20 |Liam Jackson|357 Hickory Ct|Support|2024-08-01|Community College|David Brown| 90
+INTERN I005 21 |Isabella Baker|482 Campus Dr|HR|2024-09-01|Business School|Angela King| 110
+INTERN I006 22 |Ethan Carter|593 Student Ln|Finance|2024-08-15|Finance Academy|Steven Young| 130
+INTERN I007 20 |Mia Phillips|604 College Ave|Marketing|2024-09-01|Marketing Institute|Victoria Allen| 95
+INTERN I008 23 |Noah Mitchell|715 University Rd|Engineering|2024-06-01|Tech Institute|Amy Rodriguez| 145
+INTERN I009 21 |Ava Turner|826 Academy St|Product|2024-07-15|Design School|Daniel Kim| 105
+INTERN I010 22 |Lucas Campbell|937 Scholar Way|Engineering|2024-09-01|CS University|Christopher Hall| 125
+
+# CONTRACT EMPLOYEES
+CONTRACT C001 40 8 |Frank Miller|987 Cedar Ln|Marketing|2024-01-01|2024-12-31| 15000 1
+CONTRACT C002 36 10 |Nancy Moore|258 Oak Blvd|IT|2024-03-01|2025-02-28| 18000 0
+CONTRACT C003 44 12 |George Harris|741 Pine Cir|Consulting|2023-11-15|2024-11-14| 20000 1
+CONTRACT C004 39 9 |Emily Clark|852 Elm Ter|Design|2024-05-01|2024-10-31| 12000 0
+CONTRACT C005 37 11 |Monica Parker|159 Contract Blvd|Legal|2024-01-15|2025-01-14| 22000 0
+CONTRACT C006 41 13 |Richard Evans|267 Project Ave|Security|2023-09-01|2024-08-31| 25000 1
+CONTRACT C007 35 8 |Jessica Stewart|378 Freelance St|UX Design|2024-04-01|2024-09-30| 16000 0
+CONTRACT C008 45 15 |Thomas Morris|489 Temp Ln|DevOps|2024-02-01|2025-01-31| 24000 0
+CONTRACT C009 38 10 |Amanda Collins|590 Gig Rd|Data Science|2023-12-01|2024-11-30| 21000 1
+CONTRACT C010 42 14 |Ryan Edwards|601 Assignment Dr|Cloud Architecture|2024-03-15|2024-12-14| 26000 0
+
+
+
+# ========================================
+# TOTAL EMPLOYEES: 50
+# Managers: 8
+# Developers: 15
+# Part-Time: 10
+# Interns: 10
+# Contractors: 10
+# ========================================
+
+# You can add more employees below following the format guidelines above
